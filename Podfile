@@ -8,3 +8,9 @@ target 'EarlGrey2SampleUITests' do
   inherit! :search_paths
   pod 'EarlGreyTest', '2.0.0-rc'
 end
+
+target 'DistantObjectBundle' do
+  use_frameworks!
+  inherit! :search_paths
+  pod 'EarlGreyTest', '2.0.0-rc'
+end
