@@ -24,9 +24,16 @@ class EarlGrey2SampleUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSample() {
+        EarlGrey.selectElement(with: grey_keyWindow())
+            .perform(grey_tap())
+        EarlGrey.selectElement(with: grey_accessibilityID("text_label"))
+            .assert(grey_text("Just A Label"))
+        EarlGrey.selectElement(with: grey_accessibilityID("switch"))
+            .perform(grey_turnSwitchOn(true))
+            .assert(grey_switchWithOnState(true))
+            .perform(grey_turnSwitchOn(false))
+            .assert(grey_switchWithOnState(false))
     }
 
 }
