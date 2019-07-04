@@ -18,21 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Just A Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndA-Qo-Ejg">
-                                <rect key="frame" x="136.9296785211493" y="67" width="99.999999999999915" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Just A Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndA-Qo-Ejg">
+                                <rect key="frame" x="137" y="67" width="100" height="20"/>
                                 <accessibility key="accessibilityConfiguration" identifier="text_label"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CL0-8h-Hcj">
-                                <rect key="frame" x="163.79866199895548" y="318.79643199721158" width="48.999999999999964" height="30.999999999999943"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CL0-8h-Hcj">
+                                <rect key="frame" x="164" y="319" width="49" height="31"/>
                                 <accessibility key="accessibilityConfiguration" identifier="switch"/>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ndA-Qo-Ejg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="47" id="Alp-V1-TyK"/>
+                            <constraint firstItem="ndA-Qo-Ejg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tlg-s6-kiL"/>
+                            <constraint firstItem="CL0-8h-Hcj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="a4G-Gi-bd7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CL0-8h-Hcj" secondAttribute="bottom" constant="317" id="ghN-S5-3Td"/>
+                            <constraint firstItem="ndA-Qo-Ejg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="vqU-qh-TYJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

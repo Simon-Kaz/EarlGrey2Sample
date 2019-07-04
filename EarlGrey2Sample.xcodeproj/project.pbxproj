@@ -10,6 +10,7 @@
 		3801AB2C55467338834CDBB8 /* Pods_EarlGrey2SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996B8B823563768EB165D371 /* Pods_EarlGrey2SampleUITests.framework */; };
 		B785402A7BBEB13AD4735407 /* Pods_EarlGrey2Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEBA138FD62203DA26F8B24 /* Pods_EarlGrey2Sample.framework */; };
 		CC1A3A9522CE471600745A7D /* AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1A3A9422CE471600745A7D /* AppFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CC1A3A9722CE486E00745A7D /* DistantObjectBundle.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC1A3A8C22CE438700745A7D /* DistantObjectBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CCDD853122CE234100C1454C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD853022CE234100C1454C /* AppDelegate.swift */; };
 		CCDD853322CE234100C1454C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD853222CE234100C1454C /* ViewController.swift */; };
 		CCDD853622CE234100C1454C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDD853422CE234100C1454C /* Main.storyboard */; };
@@ -43,6 +44,19 @@
 			remoteInfo = EarlGrey2Sample;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC1A3A9622CE484C00745A7D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TARGET_BUILD_DIR)/../../EarlGrey2Sample.app/EarlGreyHelperBundles";
+			dstSubfolderSpec = 0;
+			files = (
+				CC1A3A9722CE486E00745A7D /* DistantObjectBundle.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		18BA0A846EA4838F8391188E /* Pods-EarlGrey2SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-EarlGrey2SampleUITests/Pods-EarlGrey2SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -259,6 +273,7 @@
 				CCDD854922CE234200C1454C /* Frameworks */,
 				CCDD854A22CE234200C1454C /* Resources */,
 				11333B031F03B2D4BACA64B5 /* [CP] Embed Pods Frameworks */,
+				CC1A3A9622CE484C00745A7D /* CopyFiles */,
 			);
 			buildRules = (
 			);
