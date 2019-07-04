@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3801AB2C55467338834CDBB8 /* Pods_EarlGrey2SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996B8B823563768EB165D371 /* Pods_EarlGrey2SampleUITests.framework */; };
 		B785402A7BBEB13AD4735407 /* Pods_EarlGrey2Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEBA138FD62203DA26F8B24 /* Pods_EarlGrey2Sample.framework */; };
+		CC1A3A9522CE471600745A7D /* AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1A3A9422CE471600745A7D /* AppFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CCDD853122CE234100C1454C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD853022CE234100C1454C /* AppDelegate.swift */; };
 		CCDD853322CE234100C1454C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD853222CE234100C1454C /* ViewController.swift */; };
 		CCDD853622CE234100C1454C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDD853422CE234100C1454C /* Main.storyboard */; };
@@ -20,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CC1A3A9222CE46FC00745A7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDD852522CE234100C1454C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDD852C22CE234100C1454C;
+			remoteInfo = EarlGrey2Sample;
+		};
 		CCDD854222CE234200C1454C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CCDD852522CE234100C1454C /* Project object */;
@@ -42,6 +50,9 @@
 		2DEBA138FD62203DA26F8B24 /* Pods_EarlGrey2Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGrey2Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		996B8B823563768EB165D371 /* Pods_EarlGrey2SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGrey2SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FC42B40DFF4C9831613976 /* Pods-EarlGrey2Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2Sample.debug.xcconfig"; path = "Target Support Files/Pods-EarlGrey2Sample/Pods-EarlGrey2Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		CC1A3A8C22CE438700745A7D /* DistantObjectBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistantObjectBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1A3A8E22CE438700745A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1A3A9422CE471600745A7D /* AppFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppFramework.framework; path = Pods/EarlGreyApp/AppFramework.framework; sourceTree = "<group>"; };
 		CCDD852D22CE234100C1454C /* EarlGrey2Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGrey2Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDD853022CE234100C1454C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDD853222CE234100C1454C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +72,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CC1A3A8922CE438700745A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1A3A9522CE471600745A7D /* AppFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCDD852A22CE234100C1454C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,12 +117,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CC1A3A8D22CE438700745A7D /* DistantObjectBundle */ = {
+			isa = PBXGroup;
+			children = (
+				CC1A3A8E22CE438700745A7D /* Info.plist */,
+			);
+			path = DistantObjectBundle;
+			sourceTree = "<group>";
+		};
 		CCDD852422CE234100C1454C = {
 			isa = PBXGroup;
 			children = (
 				CCDD852F22CE234100C1454C /* EarlGrey2Sample */,
 				CCDD854422CE234200C1454C /* EarlGrey2SampleTests */,
 				CCDD854F22CE234200C1454C /* EarlGrey2SampleUITests */,
+				CC1A3A8D22CE438700745A7D /* DistantObjectBundle */,
 				CCDD852E22CE234100C1454C /* Products */,
 				41D3FF4FE485681A97C886E8 /* Pods */,
 				E432BB7FDB237204C89E4994 /* Frameworks */,
@@ -116,6 +144,7 @@
 				CCDD852D22CE234100C1454C /* EarlGrey2Sample.app */,
 				CCDD854122CE234200C1454C /* EarlGrey2SampleTests.xctest */,
 				CCDD854C22CE234200C1454C /* EarlGrey2SampleUITests.xctest */,
+				CC1A3A8C22CE438700745A7D /* DistantObjectBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +185,7 @@
 		E432BB7FDB237204C89E4994 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC1A3A9422CE471600745A7D /* AppFramework.framework */,
 				2DEBA138FD62203DA26F8B24 /* Pods_EarlGrey2Sample.framework */,
 				996B8B823563768EB165D371 /* Pods_EarlGrey2SampleUITests.framework */,
 			);
@@ -165,6 +195,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CC1A3A8B22CE438700745A7D /* DistantObjectBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1A3A9122CE438700745A7D /* Build configuration list for PBXNativeTarget "DistantObjectBundle" */;
+			buildPhases = (
+				CC1A3A8822CE438700745A7D /* Sources */,
+				CC1A3A8922CE438700745A7D /* Frameworks */,
+				CC1A3A8A22CE438700745A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1A3A9322CE46FC00745A7D /* PBXTargetDependency */,
+			);
+			name = DistantObjectBundle;
+			productName = DistantObjectBundle;
+			productReference = CC1A3A8C22CE438700745A7D /* DistantObjectBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		CCDD852C22CE234100C1454C /* EarlGrey2Sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCDD855522CE234200C1454C /* Build configuration list for PBXNativeTarget "EarlGrey2Sample" */;
@@ -232,6 +280,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = simonk;
 				TargetAttributes = {
+					CC1A3A8B22CE438700745A7D = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					CCDD852C22CE234100C1454C = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -261,11 +312,19 @@
 				CCDD852C22CE234100C1454C /* EarlGrey2Sample */,
 				CCDD854022CE234200C1454C /* EarlGrey2SampleTests */,
 				CCDD854B22CE234200C1454C /* EarlGrey2SampleUITests */,
+				CC1A3A8B22CE438700745A7D /* DistantObjectBundle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CC1A3A8A22CE438700745A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCDD852B22CE234100C1454C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,6 +433,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CC1A3A8822CE438700745A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCDD852922CE234100C1454C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -403,6 +469,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CC1A3A9322CE46FC00745A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDD852C22CE234100C1454C /* EarlGrey2Sample */;
+			targetProxy = CC1A3A9222CE46FC00745A7D /* PBXContainerItemProxy */;
+		};
 		CCDD854322CE234200C1454C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CCDD852C22CE234100C1454C /* EarlGrey2Sample */;
@@ -435,6 +506,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CC1A3A8F22CE438700745A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/EarlGrey2Sample.app/EarlGrey2Sample";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 27Q5P95K24;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/EarlGreyApp",
+				);
+				INFOPLIST_FILE = DistantObjectBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonk.DistantObjectBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/**";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CC1A3A9022CE438700745A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/EarlGrey2Sample.app/EarlGrey2Sample";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 27Q5P95K24;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/EarlGreyApp",
+				);
+				INFOPLIST_FILE = DistantObjectBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonk.DistantObjectBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/**";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		CCDD855322CE234200C1454C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -678,6 +801,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CC1A3A9122CE438700745A7D /* Build configuration list for PBXNativeTarget "DistantObjectBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1A3A8F22CE438700745A7D /* Debug */,
+				CC1A3A9022CE438700745A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CCDD852822CE234100C1454C /* Build configuration list for PBXProject "EarlGrey2Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
