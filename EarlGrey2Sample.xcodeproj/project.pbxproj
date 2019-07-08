@@ -9,18 +9,22 @@
 /* Begin PBXBuildFile section */
 		3801AB2C55467338834CDBB8 /* Pods_EarlGrey2SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996B8B823563768EB165D371 /* Pods_EarlGrey2SampleUITests.framework */; };
 		B785402A7BBEB13AD4735407 /* Pods_EarlGrey2Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEBA138FD62203DA26F8B24 /* Pods_EarlGrey2Sample.framework */; };
+		CC92613122D3475C00B2CE46 /* SwiftTestsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC92613022D3475C00B2CE46 /* SwiftTestsHost.swift */; };
+		CC92613322D347E500B2CE46 /* GREYHostApplicationDistantObject+SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC92613222D347E500B2CE46 /* GREYHostApplicationDistantObject+SwiftTests.swift */; };
+		CC92613622D3484600B2CE46 /* SwiftTestsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC92613022D3475C00B2CE46 /* SwiftTestsHost.swift */; };
+		CC92613A22D348AC00B2CE46 /* eDistantObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC92613922D348AC00B2CE46 /* eDistantObject.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CCDD853122CE234100C1454C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD853022CE234100C1454C /* AppDelegate.swift */; };
 		CCDD853322CE234100C1454C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD853222CE234100C1454C /* ViewController.swift */; };
 		CCDD853622CE234100C1454C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDD853422CE234100C1454C /* Main.storyboard */; };
 		CCDD853822CE234200C1454C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDD853722CE234200C1454C /* Assets.xcassets */; };
 		CCDD853B22CE234200C1454C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDD853922CE234200C1454C /* LaunchScreen.storyboard */; };
-		CCDD854622CE234200C1454C /* EarlGrey2SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD854522CE234200C1454C /* EarlGrey2SampleTests.swift */; };
 		CCDD855122CE234200C1454C /* EarlGrey2SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD855022CE234200C1454C /* EarlGrey2SampleUITests.swift */; };
 		CCDD855F22CE26A600C1454C /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD855E22CE26A600C1454C /* EarlGrey.swift */; };
+		D9AABC454781705336FD0769 /* Pods_eDOBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA3C86FBACEC0AE5F77FF86 /* Pods_eDOBundle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CCDD854222CE234200C1454C /* PBXContainerItemProxy */ = {
+		CC92613722D3489600B2CE46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CCDD852522CE234100C1454C /* Project object */;
 			proxyType = 1;
@@ -40,8 +44,14 @@
 		18BA0A846EA4838F8391188E /* Pods-EarlGrey2SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-EarlGrey2SampleUITests/Pods-EarlGrey2SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2792E0F014945BC654211CD3 /* Pods-EarlGrey2SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-EarlGrey2SampleUITests/Pods-EarlGrey2SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2DEBA138FD62203DA26F8B24 /* Pods_EarlGrey2Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGrey2Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3614C1773D05A7DCD326C3 /* Pods-eDOBundle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eDOBundle.debug.xcconfig"; path = "Target Support Files/Pods-eDOBundle/Pods-eDOBundle.debug.xcconfig"; sourceTree = "<group>"; };
 		996B8B823563768EB165D371 /* Pods_EarlGrey2SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGrey2SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FC42B40DFF4C9831613976 /* Pods-EarlGrey2Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2Sample.debug.xcconfig"; path = "Target Support Files/Pods-EarlGrey2Sample/Pods-EarlGrey2Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		CC92612922D3466C00B2CE46 /* eDOBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eDOBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC92612F22D3475C00B2CE46 /* eDOBundle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eDOBundle-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC92613022D3475C00B2CE46 /* SwiftTestsHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestsHost.swift; sourceTree = "<group>"; };
+		CC92613222D347E500B2CE46 /* GREYHostApplicationDistantObject+SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GREYHostApplicationDistantObject+SwiftTests.swift"; sourceTree = "<group>"; };
+		CC92613922D348AC00B2CE46 /* eDistantObject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = eDistantObject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDD852D22CE234100C1454C /* EarlGrey2Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGrey2Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDD853022CE234100C1454C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDD853222CE234100C1454C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,30 +59,31 @@
 		CCDD853722CE234200C1454C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCDD853A22CE234200C1454C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCDD853C22CE234200C1454C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCDD854122CE234200C1454C /* EarlGrey2SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGrey2SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCDD854522CE234200C1454C /* EarlGrey2SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey2SampleTests.swift; sourceTree = "<group>"; };
-		CCDD854722CE234200C1454C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCDD854C22CE234200C1454C /* EarlGrey2SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGrey2SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDD855022CE234200C1454C /* EarlGrey2SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey2SampleUITests.swift; sourceTree = "<group>"; };
 		CCDD855222CE234200C1454C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCDD855E22CE26A600C1454C /* EarlGrey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
 		CCDD856122CE273D00C1454C /* EarlGrey2BH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarlGrey2BH.h; sourceTree = "<group>"; };
 		D7B6CC1DA3EAE7C8695FEC3A /* Pods-EarlGrey2Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2Sample.release.xcconfig"; path = "Target Support Files/Pods-EarlGrey2Sample/Pods-EarlGrey2Sample.release.xcconfig"; sourceTree = "<group>"; };
+		DBA3C86FBACEC0AE5F77FF86 /* Pods_eDOBundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eDOBundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF75ABDF2FC54D68B4CE106C /* Pods-eDOBundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eDOBundle.release.xcconfig"; path = "Target Support Files/Pods-eDOBundle/Pods-eDOBundle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CC92612622D3466C00B2CE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC92613A22D348AC00B2CE46 /* eDistantObject.framework in Frameworks */,
+				D9AABC454781705336FD0769 /* Pods_eDOBundle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCDD852A22CE234100C1454C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B785402A7BBEB13AD4735407 /* Pods_EarlGrey2Sample.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCDD853E22CE234200C1454C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,16 +105,28 @@
 				D7B6CC1DA3EAE7C8695FEC3A /* Pods-EarlGrey2Sample.release.xcconfig */,
 				18BA0A846EA4838F8391188E /* Pods-EarlGrey2SampleUITests.debug.xcconfig */,
 				2792E0F014945BC654211CD3 /* Pods-EarlGrey2SampleUITests.release.xcconfig */,
+				8C3614C1773D05A7DCD326C3 /* Pods-eDOBundle.debug.xcconfig */,
+				EF75ABDF2FC54D68B4CE106C /* Pods-eDOBundle.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC92612A22D3466C00B2CE46 /* eDOBundle */ = {
+			isa = PBXGroup;
+			children = (
+				CC92613022D3475C00B2CE46 /* SwiftTestsHost.swift */,
+				CC92612F22D3475C00B2CE46 /* eDOBundle-Bridging-Header.h */,
+				CC92613222D347E500B2CE46 /* GREYHostApplicationDistantObject+SwiftTests.swift */,
+			);
+			path = eDOBundle;
 			sourceTree = "<group>";
 		};
 		CCDD852422CE234100C1454C = {
 			isa = PBXGroup;
 			children = (
 				CCDD852F22CE234100C1454C /* EarlGrey2Sample */,
-				CCDD854422CE234200C1454C /* EarlGrey2SampleTests */,
 				CCDD854F22CE234200C1454C /* EarlGrey2SampleUITests */,
+				CC92612A22D3466C00B2CE46 /* eDOBundle */,
 				CCDD852E22CE234100C1454C /* Products */,
 				41D3FF4FE485681A97C886E8 /* Pods */,
 				E432BB7FDB237204C89E4994 /* Frameworks */,
@@ -114,8 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				CCDD852D22CE234100C1454C /* EarlGrey2Sample.app */,
-				CCDD854122CE234200C1454C /* EarlGrey2SampleTests.xctest */,
 				CCDD854C22CE234200C1454C /* EarlGrey2SampleUITests.xctest */,
+				CC92612922D3466C00B2CE46 /* eDOBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,15 +156,6 @@
 			path = EarlGrey2Sample;
 			sourceTree = "<group>";
 		};
-		CCDD854422CE234200C1454C /* EarlGrey2SampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				CCDD854522CE234200C1454C /* EarlGrey2SampleTests.swift */,
-				CCDD854722CE234200C1454C /* Info.plist */,
-			);
-			path = EarlGrey2SampleTests;
-			sourceTree = "<group>";
-		};
 		CCDD854F22CE234200C1454C /* EarlGrey2SampleUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,8 +170,10 @@
 		E432BB7FDB237204C89E4994 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC92613922D348AC00B2CE46 /* eDistantObject.framework */,
 				2DEBA138FD62203DA26F8B24 /* Pods_EarlGrey2Sample.framework */,
 				996B8B823563768EB165D371 /* Pods_EarlGrey2SampleUITests.framework */,
+				DBA3C86FBACEC0AE5F77FF86 /* Pods_eDOBundle.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,6 +181,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CC92612822D3466C00B2CE46 /* eDOBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC92612C22D3466C00B2CE46 /* Build configuration list for PBXNativeTarget "eDOBundle" */;
+			buildPhases = (
+				B7E9C99EF9A80C6606B1EDCC /* [CP] Check Pods Manifest.lock */,
+				CC92612522D3466C00B2CE46 /* Sources */,
+				CC92612622D3466C00B2CE46 /* Frameworks */,
+				CC92612722D3466C00B2CE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC92613822D3489600B2CE46 /* PBXTargetDependency */,
+			);
+			name = eDOBundle;
+			productName = eDOBundle;
+			productReference = CC92612922D3466C00B2CE46 /* eDOBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		CCDD852C22CE234100C1454C /* EarlGrey2Sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCDD855522CE234200C1454C /* Build configuration list for PBXNativeTarget "EarlGrey2Sample" */;
@@ -183,24 +218,6 @@
 			productName = EarlGrey2Sample;
 			productReference = CCDD852D22CE234100C1454C /* EarlGrey2Sample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CCDD854022CE234200C1454C /* EarlGrey2SampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CCDD855822CE234200C1454C /* Build configuration list for PBXNativeTarget "EarlGrey2SampleTests" */;
-			buildPhases = (
-				CCDD853D22CE234200C1454C /* Sources */,
-				CCDD853E22CE234200C1454C /* Frameworks */,
-				CCDD853F22CE234200C1454C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CCDD854322CE234200C1454C /* PBXTargetDependency */,
-			);
-			name = EarlGrey2SampleTests;
-			productName = EarlGrey2SampleTests;
-			productReference = CCDD854122CE234200C1454C /* EarlGrey2SampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CCDD854B22CE234200C1454C /* EarlGrey2SampleUITests */ = {
 			isa = PBXNativeTarget;
@@ -232,12 +249,12 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = simonk;
 				TargetAttributes = {
+					CC92612822D3466C00B2CE46 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
 					CCDD852C22CE234100C1454C = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					CCDD854022CE234200C1454C = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = CCDD852C22CE234100C1454C;
 					};
 					CCDD854B22CE234200C1454C = {
 						CreatedOnToolsVersion = 10.1;
@@ -259,13 +276,20 @@
 			projectRoot = "";
 			targets = (
 				CCDD852C22CE234100C1454C /* EarlGrey2Sample */,
-				CCDD854022CE234200C1454C /* EarlGrey2SampleTests */,
 				CCDD854B22CE234200C1454C /* EarlGrey2SampleUITests */,
+				CC92612822D3466C00B2CE46 /* eDOBundle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CC92612722D3466C00B2CE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCDD852B22CE234100C1454C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,13 +297,6 @@
 				CCDD853B22CE234200C1454C /* LaunchScreen.storyboard in Resources */,
 				CCDD853822CE234200C1454C /* Assets.xcassets in Resources */,
 				CCDD853622CE234100C1454C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCDD853F22CE234200C1454C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +366,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarlGrey2Sample/Pods-EarlGrey2Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B7E9C99EF9A80C6606B1EDCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eDOBundle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FA9C26DBF3D81991A47EBA2B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,6 +413,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CC92612522D3466C00B2CE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC92613322D347E500B2CE46 /* GREYHostApplicationDistantObject+SwiftTests.swift in Sources */,
+				CC92613122D3475C00B2CE46 /* SwiftTestsHost.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCDD852922CE234100C1454C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,30 +431,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCDD853D22CE234200C1454C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCDD854622CE234200C1454C /* EarlGrey2SampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CCDD854822CE234200C1454C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CCDD855F22CE26A600C1454C /* EarlGrey.swift in Sources */,
 				CCDD855122CE234200C1454C /* EarlGrey2SampleUITests.swift in Sources */,
+				CC92613622D3484600B2CE46 /* SwiftTestsHost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CCDD854322CE234200C1454C /* PBXTargetDependency */ = {
+		CC92613822D3489600B2CE46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CCDD852C22CE234100C1454C /* EarlGrey2Sample */;
-			targetProxy = CCDD854222CE234200C1454C /* PBXContainerItemProxy */;
+			targetProxy = CC92613722D3489600B2CE46 /* PBXContainerItemProxy */;
 		};
 		CCDD854E22CE234200C1454C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -435,6 +476,81 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CC92612D22D3466C00B2CE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3614C1773D05A7DCD326C3 /* Pods-eDOBundle.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/EarlGrey2Sample.app/EarlGrey2Sample";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 27Q5P95K24;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonk.eDOBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "eDOBundle/eDOBundle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"Pods/**",
+					Pods/eDistantObject/Service/Sources,
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CC92612E22D3466C00B2CE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF75ABDF2FC54D68B4CE106C /* Pods-eDOBundle.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/EarlGrey2Sample.app/EarlGrey2Sample";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 27Q5P95K24;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonk.eDOBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "eDOBundle/eDOBundle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"Pods/**",
+					Pods/eDistantObject/Service/Sources,
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		CCDD855322CE234200C1454C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -589,48 +705,6 @@
 			};
 			name = Release;
 		};
-		CCDD855922CE234200C1454C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27Q5P95K24;
-				INFOPLIST_FILE = EarlGrey2SampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.simonk.EarlGrey2SampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarlGrey2Sample.app/EarlGrey2Sample";
-			};
-			name = Debug;
-		};
-		CCDD855A22CE234200C1454C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27Q5P95K24;
-				INFOPLIST_FILE = EarlGrey2SampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.simonk.EarlGrey2SampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarlGrey2Sample.app/EarlGrey2Sample";
-			};
-			name = Release;
-		};
 		CCDD855C22CE234200C1454C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18BA0A846EA4838F8391188E /* Pods-EarlGrey2SampleUITests.debug.xcconfig */;
@@ -678,6 +752,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CC92612C22D3466C00B2CE46 /* Build configuration list for PBXNativeTarget "eDOBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC92612D22D3466C00B2CE46 /* Debug */,
+				CC92612E22D3466C00B2CE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CCDD852822CE234100C1454C /* Build configuration list for PBXProject "EarlGrey2Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -692,15 +775,6 @@
 			buildConfigurations = (
 				CCDD855622CE234200C1454C /* Debug */,
 				CCDD855722CE234200C1454C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CCDD855822CE234200C1454C /* Build configuration list for PBXNativeTarget "EarlGrey2SampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCDD855922CE234200C1454C /* Debug */,
-				CCDD855A22CE234200C1454C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
