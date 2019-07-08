@@ -586,10 +586,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "eDOBundle/eDOBundle-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				USER_HEADER_SEARCH_PATHS = (
 					"Pods/**",
-					"../**",
 					"$(PROJECT_DIR)/**",
 					Pods/eDistantObject/Service/Sources,
 				);
@@ -620,10 +619,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "eDOBundle/eDOBundle-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				USER_HEADER_SEARCH_PATHS = (
 					"Pods/**",
-					"../**",
 					"$(PROJECT_DIR)/**",
 					Pods/eDistantObject/Service/Sources,
 				);
