@@ -588,9 +588,8 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				USER_HEADER_SEARCH_PATHS = (
-					"Pods/**",
-					"$(PROJECT_DIR)/**",
-					Pods/eDistantObject/Service/Sources,
+					"Pods/EarlGreyApp/**",
+					"Pods/eDistantObject/**",
 				);
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 				WRAPPER_EXTENSION = bundle;
@@ -621,9 +620,8 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "eDOBundle/eDOBundle-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				USER_HEADER_SEARCH_PATHS = (
-					"Pods/**",
-					"$(PROJECT_DIR)/**",
-					Pods/eDistantObject/Service/Sources,
+					"Pods/EarlGreyApp/**",
+					"Pods/eDistantObject/**",
 				);
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 				WRAPPER_EXTENSION = bundle;
